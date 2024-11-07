@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Temperature Heat Map</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div id="title">Global Temperature Heat Map</div>
+    <div id="description">
+        Visualize the global temperature data from 1754 to 2015. Each cell represents a monthly temperature with color coding.
+    </div>
+    <svg id="heatmap" width="800" height="600"></svg>
+
+    <div id="x-axis"></div>
+    <div id="y-axis"></div>
+    <div id="legend"></div>
+
+    <div id="tooltip" style="position: absolute; visibility: hidden; background-color: lightgrey; padding: 5px; border-radius: 5px;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
